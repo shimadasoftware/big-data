@@ -2,7 +2,7 @@
 
 El presente repositorio contiene diferentes temáticas y proyectos de Big Data. A continuación, se enumeran los módulos de este repositorio:
 
-![Big data topics](https://github.com/shimadasoftware/big-data/assets/73977456/07cd2155-61cc-416d-9be4-f4c9e9679d9f)
+![Big data topics](./img/Big%20data%20topics.png)
 
 <ul dir="auto">
   <li><a href="">Módulo 1: Introducción a Big Data</a></li>
