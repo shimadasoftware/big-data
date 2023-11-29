@@ -10,9 +10,44 @@ Un dato es una representación simbólica (numérica, alfabética, algorítmica,
 
 ![image](/img/relación%20data%20e%20información.png)
 
-### Representación de los datos
+### Cuánta información se genera cada día
+
+**Byte** es un término creado por Werner Buchholz en 1957 como una **unidad de información digital** equivalente a cuatro bits (binary digit, dígito binario) originalmente y posteriormente como estándar se adoptó que 1 byte equivale a ocho bits. La palabra byte proviene de bite, que significa mordisco, como la cantidad más pequeña de datos que un ordenador podía "morder" a la vez.
 
 ![image](/img/tablaunidades.jpg)
+
+### Tipos de datos
+
+![image](/img/datos%20estructurados%20vs%20no%20estructurados.png)
+
+- **Datos Estructurados:**
+  
+La gran mayoría de las fuentes de datos tradicionales son originadas por datos del tipo estructurados, datos con formato o esquema fijo, que poseen campos fijos y bien definidos.
+
+![image](/img/datos%20estructurados.png)
+
+- **Datos NO Estructurados:**
+  
+Son las estructuras de datos más difíciles de manejar, podemos encontrar entre los datos no estructurados más conocidos:
+
+  - Documentos PDF o Word.
+  - Audios y videos.
+  - Correos electrónicos.
+  - Ficheros multimedia de imagen.
+  - Artículos y textos, entre otros.
+
+![image](/img/datos%20no%20estructurados.png)
+
+- **Datos Semi Estructurados:**
+
+Son un híbrido entre los datos estructurados y los datos no estructurados, podríamos decir entonces de manera sencilla, que no presentan una estructura
+perfectamente definida como los datos estructurados, pero sí presentan una organización definida en sus metadatos donde describen los objetos y sus relaciones.
+
+![image](/img/datos%20no%20estructurados.png)
+
+### Escalamiento
+
+![image](/img/escalamiento.png)
 
 ### Problemas actuales con los datos
 
@@ -236,9 +271,51 @@ Más información: http://es.wikipedia.org/wiki/KML
 
 ![image](/img/Nosql%20vs%20sql%20features.png)
 
-NoSQL – "not only SQL” – es una categoría general de sistemas de gestión de bases de datos que difiere de los RDBMS en diferente modos:
+NoSQL o **“no solo SQL"**, hace referencia a que dichas bases de datos **difieren** del **modelo clasico RDBMS**, estas son especialmente util cuando una empresa necesita acceder y analizar grandes cantidades de datos o su enfoque arquitectural esta disenado para distribuir los centros de datos y sus esquemas de datos no son fijos.
+
+Un sistema de administración de bases de datos relacionales (RDBMS) es un programa que se usa para crear, actualizar y administrar bases de datos relacionales. Algunos de los RDBMS más conocidos son MySQL, PostgreSQL, MariaDB, Microsoft SQL Server y Oracle Database.
+
+**NoSQL** – "not only SQL” – es una categoría general de sistemas de gestión de bases de datos que difiere de los RDBMS en diferente modos:
 
 – No tienen schemas, no permiten JOINs, no intentan garantizar ACID y escalan horizontalmente.
+
 – Tanto las bases de datos NoSQL como las relacionales son tipos de Almacenamiento Estructurado.
-- El término fue acuñado en 1998 por Carlo Strozzi y resucitado en 2009 por Eric Evans.
+
+– El término fue acuñado en 1998 por Carlo Strozzi y resucitado en 2009 por Eric Evans.
+
 – Evans sugiere mejor referirse a esta familia de BBDD de nueva generación como “Big Data” mientras que Strozzi considera ahora que NoREL es un mejor nombre
+
+El término fue acuñado en 1998 por Carlo Strozzi y resucitado en 2009 por Eric Evans
+– Evans sugiere mejor referirse a esta familia de BBDD de nueva generación como “Big Data” mientras que Strozzi considera ahora que NoREL es un mejor nombre.
+
+La principal diferencia radica en cómo guardan los datos (por ejemplo, almacenamiento de un recibo):
+
+– En una RDBMS tendríamos que partir la información en diferentes tablas y luego usar un lenguaje de programación en la parte servidora para transformar estos datos en objetos de la vida real.
+
+– En NoSQL, simplemente guardas el recibo. NoSQL es libre de schemas, tú no diseñas tus tablas y su estructura por adelantado.
+
+**Características principales de NoSQL**
+
+- Fáciles de usar en clústers de balanceo de carga convencionales, ya que facilitan **escalabilidad horizontal**.
+
+- Guardan **datos persistentes** (no sólo cachés).
+
+- **No tienen esquemas fijos y permite la migración del esquema** sin tener que ser reiniciadas o paradas.
+
+- Suelen tener un **sistema de consultas propio** en vez de usar un lenguaje de consultas estándar.
+
+- Tienen propiedades ACID en un nodo del clúster y son **“eventualmente consistentes”** en el clúster.
+
+**RDBMS vs NoSQL**
+
+- Los RDBMS tradicionales nos permiten definir la estructura de un esquema que demanda reglas rígidas y garantizan ACID
+
+- Las aplicaciones web y sistemas de información modernos presentan desafíos muy distintos a los sistemas empresariales tradicionales (e.j. sistemas bancarios):
+
+  - Datos a escala web
+  - Alta frecuencia de lecturas y escrituras
+  - Cambios de esquema de datos frecuentes
+  - Las aplicaciones sociales (no bancarias) no necesitan el mismo nivel de ACID
+
+- Consecuencia de la aparición de soluciones NoSQL
+  - Cassandra, MongoDB, Jackrabbit , CouchDB, BigTable, Dynamo o Neo4j
