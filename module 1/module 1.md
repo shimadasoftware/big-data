@@ -1,1 +1,157 @@
+# <img src="https://github.com/shimadasoftware/big-data/assets/73977456/311cd96c-6049-464c-a0bb-201c5c272515" alt="Italian Trulli" style="width:30px;height:30px;"> Introducción a Big Data
+
+## Conceptos básicos
+
+![image](/img/piramid.png)
+
+### Datos
+
+Un dato es una representación simbólica (numérica, alfabética, algorítmica, espacial, etc.) de un atributo o variable cuantitativa o cualitativa. Los datos describen hechos empíricos, sucesos y entidades.
+
+![image](/img/relación%20data%20e%20información.png)
+
+### Representación de los datos
+
+![image](/img/tablaunidades.jpg)
+
+### Problemas actuales con los datos
+
+Surgen nuevos tipos de datos y necesidades que actualmente los sistemas no son suficientemente buenos o adecuados para poder atacar estos problemas pues las
+empresas son más exigentes y buscan exprimir al máximo sus recursos para obtener el mayor beneficio. Sería semejante a escuderías de F1 que buscan superar al rival buscando la diferencia hasta en los grados de regulación de un alerón, analizando y optimizando al mayor detalle.
+
+- **Tipos de datos (variedad)**
+
+  - Han surgido nuevos tipos de datos que se quieren almacenar: datos no estructurados.
+  - Las BD Relacionales no pueden almacenar este tipo de datos.
+
+- **Escalabilidad**
+
+  - En búsqueda de la rapidez y rendimiento en consultas o procesamiento de datos se busca escalar siempre en horizontal.
+
+- **Modelo relacional**
+  
+  - El modelo relacional no da soporte para todos los problemas. No podemos atacar todos los problemas con el mismo enfoque, queremos optimizar al 100% nuestro sistema y no podemos ajustar nuestros sistemas a estas BD.
+
+- **Velocidad**
+
+  - Esta es una de las "3 V's" del Big Data (velocidad, variedad, volumetría). La velocidad de generación de datos hoy en día es muy elevada, simplemente hay que verlo con las redes sociales actuales, aunque las empresas medias y muchas de las grandes no se ven afectadas por ello.
+
+### Big Data
+
+Existen muchas definiciones de Big Data.
+
+- Big data es una coleccién de datos grande, complejos, muy dificil de procesar a través de herramientas de gestión y procesamiento de datos tradicionales.
+
+- “Big Data” son datos cuyo volumen, diversidad y complejidad requieren nueva arquitectura, técnicas, algoritmos y analisis para gestionar y extraer valor y conocimiento oculto en ellos...
+
+- “Volumen masivo de datos, tanto estructurados como no-estructurados, los cuales son demasiado grandes y difíciles de procesar con las bases de datos y el software tradicionales" (ONU, 2012).
+
+- “Es un conjunto de datos cuyo tamaño está más allá de la capacidad de la mayoría de los software utilizados para capturar, gestionar y procesar la información dentro de un lapso tolerable de tiempo.”
+
+- “Datos masivos es un término que hace referencia a una cantidad de datos tal que supera la capacidad del software habitual para ser capturados, gestionados y procesados en un tiempo razonable.”
+
+- El término “Big Data” ha sido vapuleado en los últimos años bajo la acusación de que los de Marketing y los Analistas han estirado y comprimido el término para llevarlo a cubrir multitud de problemas, tecnología y productos. Sin embargo en esencia Big Data sigue siendo lo mismo que planteó Doug Laney en 2001, las tres Uves, Volumen, Velocidad y Variedad y sigue señalando desafíos que exigen recursos y procesos de computación no-habituales. (Seth Grimes, Alta Plana Corporation).
+
+### Características de Big Data
+
+- **Escalabilidad lineal:** es decir, que permita aumentar la capacidad de procesamiento linealmente añadiendo nuevo hardware de forma ilimitada.
+
+- **Tolerancia a fallos:** de tal forma que si uno o varios nodos se averían, el sistema siga funcionando sin pérdida de disponibilidad ni pérdida de ningún dato.
+
+- **Despliegue sobre hardware económico de propósito general:** (inexpensive commodity hardware) que permita la creacion de granjas de servidores con un numero elevado de nodos con unos costes sostenidos. También tienen que permitir el despliegue en Cloud (cada vez mas habitual sobre todo en startups).
+
+- **Procesamiento distribuido y localidad de los datos:** entendido como la ejecucidén de los procesos analiticos se realizan lo mas cercanos de donde se encuentra el dato almacenado, evitando tanto el trasiego de la informacién como el cuello de botella que puede suponer un almacenamiento centralizado.
+
+![image](/img/traditional%20vs%20bigdata.png)
+
+### Las V en Big Data
+
+![image](/img/big%20data%20v.png)
+
+- **Volume:** grandes volúmenes de información
+
+Se está pasando de hablar en Gigabytes o Terabytes a tamaños de datos de Petabytes, Exabytes o Zettabytes. Volúmenes que se nos escapan.
+
+- **Variety:** información de tipos muy diversos
+
+Ya no solo tenemos información estructurada en Bases de Datos o Archivos. Ahora empezamos a tener información con tipos diferentes y totalmente desestructurada.
+
+- **Velocity:** velocidad con la que se genera la información
+
+La velocidad a la que se genera esta información hace imposible gestionarla con sistemas de base de datos convencionales. Las empresas y las personas ya no quieren estar al día, quieren “estar al segundo”.
+
+- **Veracity:** La veracidad puede entenderse como el grado de confianza que se establece sobre los datos a utilizar
+
+Dentro de la caracterización del Big Data la Veracidad determina su cuarta dimensión, y es de gran importancia para un analista de datos, ya que la veracidad de los mismos determinará la calidad de los resultados y la confianza en los mismos. Por lo tanto un alto volumen de información que crece a velocidad muy rápida y basada en datos estructurados y desestructurados y provenientes de una gran variedad fuentes, hacen inevitable dudar del grado de veracidad de los mismos.
+
+- **Value:** representa el aspecto más relevante del Big Data
+
+Actualmente el valor marginal de los datos se representa mediante la siguiente gráfica. En dicha gráfica se observa que a medida que aumenta el volumen y complejidad de los datos, su valor marginal disminuye considerablemente, debido a su dificultad de explotación.
+
+### Big Data en distintos campos
+
+- Web y Medios Sociales
+
+  - Datos de flujos de Clicks
+  - Feeds de Twitter
+  - Entradas de Facebook
+  - Contenido Web
+
+- Maquina a Maquina
+
+  - Lectura de medidores inteligentes
+  - Lecturas RFID (identificación por radiofrecuencia)
+  - Lectura sensores de plataformas petroleras
+  - Señales de GPS
+
+- Datos de transacciones grandes
+
+  - Demandas de salud
+  - Llamadas de Telecomunicaciones
+  - Registro de detalles
+  - Registros de Facturación
+
+- Biometría
+
+  - Reconocimiento Facial
+  - Genética
+
+- Generado por los humanos
+
+- Registros de voz de centros de llamadas
+- Correo electrónico
+- Registros médicos electrónicos
+
+### Big Data: revolución de la gestión
+
+1. Liderazgo
+
+- Crear equipos comprometidos para dar respuesta de objetivos
+
+2. Gestión del talento
+
+- Nuevos Roles (Científicos de datos )
+
+3. Tecnología
+
+- Hadoop
+- NoSQL
+- Cloud computing
+
+4. Toma de Decisiones
+   
+- Definir objetivo a alcanzar
+- Construcción de modelos predictivos
+
+5. Cultura corporativa
+   
+- Desarrollar analíticas que demuestren con sencillez la evaluación del negocio.
+- Crear herramientas sencillas usables para cualquier funcionario.
+- Desarrollar capacidades necesarias para sacar mejor provecho.
+
+### ¿Qué son los Datos Abiertos (Open Data)?
+
+“Los datos Abiertos (open data) son datos que pueden ser libremente utilizados, reutilizados y redistribuidos por cualquier persona” (ver Open Knowledge Foundation).
+
+Los datos abiertos presuponen su publicación y difusión de información en la Internet, sin limitaciones de acceso ni de uso, compartida en formato electrónico y abierto. El formato abierto permite la combinación de conjuntos de datos de diferentes orígenes, su reutilización y difusión, libremente y de forma automatizada.
 
