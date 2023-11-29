@@ -155,3 +155,90 @@ Actualmente el valor marginal de los datos se representa mediante la siguiente g
 
 Los datos abiertos presuponen su publicación y difusión de información en la Internet, sin limitaciones de acceso ni de uso, compartida en formato electrónico y abierto. El formato abierto permite la combinación de conjuntos de datos de diferentes orígenes, su reutilización y difusión, libremente y de forma automatizada.
 
+¿Cuándo un dato es un dato abierto?
+
+Un dato es considerado abierto cuando existen:
+
+- **Disponibilidad y acceso:** el dato tiene que estar disponible en la Internet (online), integralmente, sin limitaciones de acceso.
+
+- **Reutilización y redistribución:** el dato tiene que ser ofrecido en condiciones y en un formato conveniente, que permitan su reutilización, combinación con conjuntos de datos de diferentes orígenes, su difusión y redistribución. Esto significa que los datos deben ser preferiblemente procesable por maquinas, en formato no-propietario, y no cubierto por licencias que puedan limitar su uso.
+
+- **Participación universal:** el dato tiene que estar disponible sin limitaciones de uso, todos deben poder usar, reutilizar y redistribuir la información, sin discriminación con las áreas de actuación, personas o grupos.
+
+### Formatos de datos abiertos
+
+http://www.navarra.es/home_es/Open-Data/
+
+**Formatos**
+
+La información se publica en formatos de datos estructurados para facilitar que pueda ser utilizada de forma automática por los lenguajes de programación. De esta manera, se intenta cumplir el objetivo de reutilizar al máximo la información publicada.
+
+**Formatos estructurados**
+
+Estos son los formatos más utilizados para publicar los datos:
+
+**XML (eXtensible Markup Language)**
+
+Es un metalenguaje extensible de etiquetas desarrollado por el W3C que permite definir lenguajes para diferentes necesidades. Es el estándar para el intercambio de información estructurada entre diferentes plataformas.
+
+Más información: www.w3.org/standards/xml/core
+
+**CSV (Comma-separated values)**
+
+Valores separados por coma. Los ficheros CSV son un tipo de documento en formato abierto sencillo para representar datos en formato de tabla. Las columnas se separan por comas (o punto y coma) y las filas por saltos de línea.
+
+Más información: tools.ietf.org/html/rfc4180
+
+**RSS (Really Symple Sindication)**
+
+Es un formato XML para la distribución de contenidos de páginas web. Facilita la publicación de información actualizada a los usuarios suscritos a la fuente RSS sin necesidad de usar un navegador, utilizando un software especializado en este formato.
+
+Más información: http://es.wikipedia.org/wiki/RSS
+
+**SHP (Shapefile)**
+
+Shapefile es un formato propietario estándar de datos espaciales, desarrollado por la compañía ESRI, que,almacena tanto la geometría como la información alfanumérica. Este formato no está preparado para almacenar, información topológica.
+
+Más información: http://es.wikipedia.org/wiki/Shapefile
+
+**XLS (Microsoft Office Excel)**
+Microsoft Office Excel es un formato propietario de Microsoft que muestra la información en celdas organizadas en filas y columnas, y cada celda contiene datos o fórmulas, con referencias relativas o absolutas a otras celdas.
+
+Más información: http://es.wikipedia.org/wiki/Microsoft_Excel
+
+**JSON (JavaScript Object Notation)**
+
+Es un formato ligero para el intercambio de datos basado en la notación literal de objetos de JavaScript. Su sintaxis es simple, por lo que facilita el tratamiento en los navegadores. Además, su concisión reduce el tamaño de flujo de datos entre cliente y servidor.
+
+Más información: json.org/json-es.html
+
+**RDF (Resource Description Framework)**
+
+Es una especificación del W3C para el modelado de información y la descripción de recursos, que se hace con la forma de sujeto-predicado-objeto. La combinación de RDF con otras herramientas permite añadir significado a las páginas y es una de las tecnologías esenciales para la web semántica.
+
+Más información: www.w3.org/standards/techs/rdf#w3c_all
+
+**ODS (Operational Data Store)**
+
+Es un contenedor de datos activos, es decir operacionales que ayudan al soporte de decisiones y a la operación. Es un formato de archivo abierto y estándar para el almacenamiento de hojas de cálculo que muestra información en celdas organizadas en filas y columnas, y cada celda contiene datos o fórmulas, con referencias relativas o absolutas a otras celdas.
+
+Más información: http://es.wikipedia.org/wiki/ODS
+
+**KML (Keyhole Markup Language)**
+
+Es una gramática XML y un formato de archivo para la creación de modelos y el almacenamiento de funciones geográficas como puntos, líneas, imágenes, polígonos y modelos que se mostrarán principalmente en aplicaciones de mapas. KML es utilizado para compartir lugares e información entre aplicaciones.
+
+Más información: http://es.wikipedia.org/wiki/KML
+
+### NoSQL vs SQL
+
+![image](/img/NoSQL%20vs%20SQL.png)
+
+![image](/img/Nosql%20vs%20sql%20features.png)
+
+NoSQL – "not only SQL” – es una categoría general de sistemas de gestión de bases de datos que difiere de los RDBMS en diferente modos:
+
+– No tienen schemas, no permiten JOINs, no intentan garantizar ACID y escalan horizontalmente.
+– Tanto las bases de datos NoSQL como las relacionales son tipos de Almacenamiento Estructurado.
+- El término fue acuñado en 1998 por Carlo Strozzi y resucitado en 2009 por Eric Evans.
+– Evans sugiere mejor referirse a esta familia de BBDD de nueva generación como “Big Data” mientras que Strozzi considera ahora que NoREL es un mejor nombre
